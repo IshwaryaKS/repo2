@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-23T07:31:46.331Z",
+        "line": 16,
+        "name": "login testme",
+        "description": "",
+        "id": "registration;login-testme;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31787249500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login into app",
+            "match": {
+              "location": "step.a1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 352595000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter username hii123456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hii123456",
+                  "offset": 15
+                }
+              ],
+              "location": "step.b(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156247400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter firstname hii",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hii",
+                  "offset": 16
+                }
+              ],
+              "location": "step.c(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 250409600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter lastname hiii",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hiii",
+                  "offset": 15
+                }
+              ],
+              "location": "step.c1(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 767636900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter password",
+            "match": {
+              "location": "step.d()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 170529000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter gender",
+            "match": {
+              "location": "step.e()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2462678300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter contact",
+            "match": {
+              "location": "step.f()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1084847300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter sec ques",
+            "match": {
+              "location": "step.g()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": " registering into testMe app",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/a7.feature",
+    "tags": []
+  }
+]
